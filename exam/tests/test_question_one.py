@@ -11,7 +11,6 @@ from questions.question_one import (
 
 
 @pytest.mark.question_one_part_a
-@pytest.mark.order(1)
 def test_find_minimum_value():
     """Confirm correctness of question part."""
     # check 1: Matrix with positive values
@@ -40,7 +39,6 @@ def test_find_minimum_value():
 
 
 @pytest.mark.question_one_part_b
-@pytest.mark.order(2)
 def test_find_maximum_value():
     """Confirm correctness of question part."""
     # check 1: Matrix with positive values
@@ -62,7 +60,6 @@ def test_find_maximum_value():
 
 
 @pytest.mark.question_one_part_c
-@pytest.mark.order(3)
 def test_find_average_value():
     """Confirm correctness of a question part."""
     # check 1: Matrix with positive values
