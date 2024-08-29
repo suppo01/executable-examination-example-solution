@@ -1,4 +1,4 @@
-# 🚀 Executable Examination Example
+# 🚀 Executable Examination Example: Solution
 
 ![Platforms: Linux, MacOS, Windows](https://img.shields.io/badge/Platform-Linux%20%7C%20MacOS%20%7C%20Windows-blue.svg)
 [![Language: Python](https://img.shields.io/badge/Language-Python-blue.svg)](https://www.python.org/)
