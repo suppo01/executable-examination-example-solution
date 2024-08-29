@@ -363,7 +363,7 @@ jupyter = ["ipywidgets (>=7.5.1,<9)"]
 name = "ruff"
 version = "0.6.3"
 description = "An extremely fast Python linter and code formatter, written in Rust."
-optional = true
+optional = false
 python-versions = ">=3.7"
 files = [
     {file = "ruff-0.6.3-py3-none-linux_armv6l.whl", hash = "sha256:97f58fda4e309382ad30ede7f30e2791d70dd29ea17f41970119f55bdb7a45c3"},
@@ -438,4 +438,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "cd66ec178f5a79da73b5da52fd87e5d740299ad57493517b52943aec6f2b6ea6"
+content-hash = "c0b7fc8f4fb89e15d674ef5e22e047e49a98e0b2224e10f7137b66235db74562"
