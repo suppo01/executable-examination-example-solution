@@ -134,8 +134,7 @@ def find_average_value(matrix: List[List[int]]) -> Union[float, None]:
             total_sum += value
             count += 1
     # calculate and return the average value
-    # return total_sum / count
-    return count / total_sum
+    return total_sum / count
 
 
 # }}}
