@@ -46,9 +46,6 @@ setup: |
         fragment: TODO
         count: 0
         exact: true
-
-
-
     # --> contains suitable number of docstrings for both module and the function (note, differs from symbex)
     - description: Create a sufficient number of docstring (i.e., multiple-line) comments in question_one.py
       check: CountMultipleLineComments
