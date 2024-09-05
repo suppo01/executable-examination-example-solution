@@ -8,12 +8,18 @@ authors = ["Gregory M. Kapfhammer <gkapfham@allegheny.edu>"]
 python = "^3.11"
 symbex = "^1.4"
 pytest-json-report = "^1.5.0"
-execexam = "^0.1.1"
+execexam = "^0.2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
 mypy = "^1.9.0"
 ruff = {version = "^0.6.3"}
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "error",
+]
+enable_assertion_pass_hook = true
 
 [build-system]
 requires = ["poetry-core"]
