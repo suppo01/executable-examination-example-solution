@@ -67,7 +67,7 @@ setup: |
 # Question 1
 
 - description: Run checks for Question 1 Part (a) with 'execexam' command and confirm correct exit code
-  command: poetry run execexam . tests/ --verbose --mark "question_one_part_a"
+  command: poetry run execexam . tests/ --mark "question_one_part_a"
   objectives:
     LO1:
       degree:
@@ -79,7 +79,7 @@ setup: |
           rationale: "Search a matrix and compute summary values based on matrix"
 
 - description: Run checks for Question 1 Part (b) with 'execexam' command and confirm correct exit code
-  command: poetry run execexam . tests/ --verbose --mark "question_one_part_b"
+  command: poetry run execexam . tests/ --mark "question_one_part_b"
   objectives:
     LO1:
       degree:
@@ -91,7 +91,7 @@ setup: |
           rationale: "Search a matrix and compute summary values based on matrix"
 
 - description: Run checks for Question 1 Part (c) with 'execexam' command and confirm correct exit code
-  command: poetry run execexam . tests/ --verbose --mark "question_one_part_c"
+  command: poetry run execexam . tests/ --mark "question_one_part_c"
   objectives:
     LO1:
       degree:
