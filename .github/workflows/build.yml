@@ -64,7 +64,7 @@ jobs:
           if: always()
           run: |
             cd exam
-            poetry run execexam . tests/ --verbose
+            poetry run execexam . tests/
         # Run GatorGrader: use the gatorgrade.yml in repository's root
         - name: Run GatorGrader with GatorGrade
           run:  |
